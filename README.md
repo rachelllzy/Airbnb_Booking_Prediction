@@ -22,7 +22,7 @@ The dataset includes a variety of structured and semi-structured attributes abou
 
 The target variable is **the number of days a listing will be booked in the next 30 days**.
 
-**Feature Engineering**
+## **Feature Engineering**
 
 A crucial aspect of this project was transforming raw Airbnb data into **highly informative, predictive features**. Key feature engineering steps include:
 
@@ -72,7 +72,7 @@ A crucial aspect of this project was transforming raw Airbnb data into **highly 
 
 ​	•	Used **Power Transformation** (Box-Cox) to handle skewed distributions.
 
-**Model Selection & Training**
+## **Model Selection & Training**
 
 To ensure the best performance, multiple **diverse machine learning models** were tested. A combination of **ensemble learning, regularized regression, and deep learning** was explored:
 
@@ -98,7 +98,7 @@ To optimize each model’s performance, extensive hyperparameter tuning was perf
 
 The final **best-performing model** was **CatBoost**, achieving an **R² score of 0.27** on the validation set.
 
-**Feature Importance Analysis**
+## **Feature Importance Analysis**
 
 To interpret the trained models and understand **which features contribute most to predictions**, I used the following methods:
 
